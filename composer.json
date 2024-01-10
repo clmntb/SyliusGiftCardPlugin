@@ -79,6 +79,9 @@
         "symfony/webpack-encore-bundle": "^1.17",
         "weirdan/doctrine-psalm-plugin": "^2.9"
     },
+    "conflict": {
+        "doctrine/orm": ">=2.15.2"
+    },
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
